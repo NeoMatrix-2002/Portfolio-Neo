@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.img {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/447117.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.img-text {
+    position: absolute;
+    top: 40%;
+    left: 36%;
+    color: white;
+    font-size: 40px;
+}
+#effect {
+    width: 100;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.heading {
+    position: absolute;
+    top: 250px;
+    left: 70px;
+}
+.paragraph {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 20px;
+}
+.img2 {
+    width: 100%;
+    height: 325px;
+    background-image: url(./images/378512-galaxy-universe-gods.jpg);
+    background-size: cover;
+    margin-right: 70px;
+}
